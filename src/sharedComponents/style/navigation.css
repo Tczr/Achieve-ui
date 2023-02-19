@@ -1,0 +1,39 @@
+nav{
+    margin-bottom: 25px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+li a{
+    display: block;
+    /* text-align: center; */
+    padding: 14px 0px;
+    margin-right: 17px;
+    text-decoration: none;
+    color: var(--green-color);
+}
+
+.nav-app{
+    border-top:1px solid var(--green-color)
+}
+
+.nav-app ul li a{
+    padding: 0 15px;
+    margin: 0 10px 0 30px;
+}
+
+/* --Problem :: it's a specific style */
+
+.sign-in, .sign-up{
+    text-decoration-line:overline;
+    text-decoration-thickness: 1px ;
+}
+.task, .profile{
+   border-top: 2px solid var(--green-color) ;
+}

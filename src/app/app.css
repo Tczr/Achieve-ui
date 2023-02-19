@@ -1,0 +1,51 @@
+:root{
+    --input-bgcolor:linear-gradient(180deg, rgba(51, 63, 68, 0.62) -466.66%, rgba(26, 26, 27, 0.62) 277.78%);
+    --green-color:#94F3E4;
+    --bg-color:#1A1A1B;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--green-color) ;
+}
+
+input, button{
+    border: none;
+    border-radius: 3px;
+}
+input{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 5px 5px 14px;
+    
+}
+input:focus{
+    outline: none;
+}
+button{
+    padding: 5px;
+    background: var(--green-color);
+    color: #1A1A1B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-section{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-section section form{
+    display: grid;
+    column-gap: 40px;
+    row-gap: 6px;
+}
+.main-section section form input:first-child{
+    background: var(--input-bgcolor);
+    height: 22px;
+    grid-column: 1/1;
+    color:var(--green-color) ;
+}

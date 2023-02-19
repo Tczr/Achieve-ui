@@ -1,0 +1,28 @@
+
+.taskContainer{
+    display: flex;
+    gap: 10vw;
+}
+
+.taskContainer section{
+    padding: 15px 15px 0 ;
+    max-width: 33%;
+}
+.taskContainer section div {
+    width: 160px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: var(--input-bgcolor);
+    height: 76px;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 15px 15px 5px;
+}
+.taskContainer section div span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.taskContainer section div .section-title{
+    margin-bottom: 30px;
+}

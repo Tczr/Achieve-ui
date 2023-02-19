@@ -1,0 +1,19 @@
+.info-section .bar{
+    grid-template-columns: 25% 50%;
+    display: grid;
+}
+
+.progress-bar{
+    grid-column: 2;
+    border-radius: 15px;
+    background: var(--input-bgcolor);
+}
+
+.progress-bar span{
+    display: block;
+    background: var(--green-color);
+    border-radius: 15px;
+    width: 47%;
+    color: var(--bg-color);
+    text-align: center;
+}
